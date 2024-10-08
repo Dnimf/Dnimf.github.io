@@ -1,0 +1,29 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2E0D5;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: #456173;
+
+}

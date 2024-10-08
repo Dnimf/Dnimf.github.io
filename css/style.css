@@ -8,6 +8,8 @@ body {
         display: flex;
         flex-direction: column;
         width: 100%;
+    background-color: #F2E0D5;
+
 
 }
 
@@ -39,6 +41,9 @@ main {
         height: 75%;
         width: 100%;
 }
+.jose{display:flex;
+align-items: center;
+font-size:120%}
 
 ul {
         display: flex;
@@ -48,6 +53,7 @@ ul {
 }
 li {
         display: flex;
+        justify-content: space-between;
         height: 15%;
         border-bottom: 1px solid black;
 }
