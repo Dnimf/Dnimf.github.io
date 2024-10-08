@@ -1,0 +1,150 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2E0D5;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    font-size: 200%;
+    background-color: #456173;
+
+}
+
+a {
+    display: flex;
+    height: 80%;
+    width: 20%;
+    padding-right: 1%;
+    margin-right: 1%;
+}
+
+img {
+    display: flex;
+    height: 80%;
+}
+
+img[alt="anotacoes"] {
+    background-color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+article {
+    border: 1px solid black;
+}
+
+.circulo1 {
+    display: flex;
+    margin: 10%;
+    background-color: #DFEDF2;
+    padding: 5%;
+    border-radius: 100%;
+    margin-right: -7%;
+    margin-left: 1%;
+    padding: 7.25%;
+}
+
+.circulo2 {
+    display: flex;
+    margin: 10%;
+    background-color: #DFEDF2;
+    padding: 5%;
+    border-radius: 100%;
+    margin-left: -7%;
+    padding: 7.25%;
+}
+
+.texto {
+    display: flex;
+    margin: 10%;
+    background-color: #DFEDF2;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 35%;
+    border: 1px solid black;
+    margin: 0%;
+    font-size: 100%
+}
+
+.tabela li {
+    display: flex;
+    height: 100%;
+    width: 100%
+}
+
+.próximo {
+    display: flex;
+    height: 80%;
+    width: 200%;
+    /* border-left:1px solid black; */
+}
+.tabela p{border-right:1px solid black;
+padding:5%;}
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 15%;
+    padding-left: 5%;
+    font-size: 120%;
+    position:fixed;
+    right: 1%;
+    top:11%;
+background-color: white;
+border-radius:5%;
+}
+
+footer {
+    display: flex;
+    height: 20%;
+    width: 100%;
+}
+
+footer img {
+    display: flex;
+    width: 100%;
+}

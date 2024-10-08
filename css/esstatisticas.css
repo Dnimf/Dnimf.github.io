@@ -1,0 +1,131 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #f2e0d5;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #456173;
+    height: 15%;
+    width: 100%;
+}
+
+a{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 7.2% 0% ;
+}
+
+.voltar{
+    width: 50%;
+    height: 7%;
+}
+
+h1{
+    font-size: 2.5rem;
+
+}
+
+.grafico{
+    display: flex;
+    width: 150%;
+    height:100%;
+    background-color: #bf7c63
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    background-color: #456173;
+    margin-top: 15%;
+}
+
+footer img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+}
+
+li p {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+.imagens{
+    width: 70%;
+}
+
+
+
+.tabela{
+    display: flex;
+    justify-content: space-around;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #BF7C63;
+}
+
+.geral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.geral li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.geral img{
+    display: flex;
+    height: 100%;
+    width: 80%;
+}
+
+h2{
+    font-size: 1.5rem;
+    background-color: #456173;
+    margin-top: 15%;
+    width: 100%;
+}
+
+article{
+    height: 8.25rem;
+}
