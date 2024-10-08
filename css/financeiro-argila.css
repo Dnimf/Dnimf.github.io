@@ -1,0 +1,41 @@
+body{ 
+    height: 100%;
+    width: 100%;
+    background-color: #f2e0d5;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #456173;
+}
+
+.voltar{
+    width: 10rem;
+    height: 10rem;
+}
+
+.vaso{
+    width: 18rem;
+    height: 18rem;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.legenda{
+    background-color: #456173;
+}
+
+.tabela{
+    background-color: #bf7c63;
+}
+
+.grafico{
+    size-adjust: 50%;
+    width: 20rem;
+    height: 10rem;
+}
