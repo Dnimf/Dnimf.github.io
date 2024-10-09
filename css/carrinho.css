@@ -1,6 +1,8 @@
 body{
+    display: flex;
     height: 100%;
     width: 100%;
+    background-color: #f2e0d5;
 }
 header{
     position: fixed;
@@ -55,23 +57,49 @@ main{
     
     padding-top: 8rem;
     padding-bottom: 20rem;
-    background-color: #f2e0d5;
 }
-h2{
 h2{ 
     display: flex;
     justify-content: center;
-    padding: .5rem;
-    width: 50%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 70%;
     background-color: #BF7c63;
     font-size: 1.5rem;
-}
-main img{
-    width: 4rem;
+    margin-bottom: 1.5rem;
 }
 .inter{
     width: 4rem;
 }
 .cont{
     width: 3rem;
+}
+article{
+    background-color: #BF7c63;
+    display: flex;
+    width: 80%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #dfedf2;
+}
+main img{
+    height: 2rem;
+    width: 2rem;
+}
+p{
+    padding: 0.5rem;
+}
+.Quant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    border: 0;
 }
