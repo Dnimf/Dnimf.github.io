@@ -83,7 +83,7 @@ article {
 
 .numero {
     display: flex;
-    font-family: "Noto Serif", serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     color: #dfedf2;
@@ -91,6 +91,7 @@ article {
     margin: 5%;
     font-size: 2rem;
     padding: 3% 5%;
+    border-radius: 50%;
     background-color: #ff3131;
 }
 
