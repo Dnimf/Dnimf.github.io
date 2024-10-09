@@ -17,6 +17,21 @@ footer {
     width: 100%;
 }
 
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 header {
     display: flex;
     height: 10%;
@@ -195,15 +210,19 @@ ul {
 
 
 }
-.resp li{display: flex;
-height: 200%;
-font-size: 100%;}
+
+.resp li {
+    display: flex;
+    height: 200%;
+    font-size: 100%;
+}
+
 article {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
-    height: 28%;
+    height: 30%;
     /* padding-left: 5%; */
     font-size: 120%;
     position: fixed;
@@ -270,8 +289,8 @@ li.endereco {
 
 .valor {
     border-right: 1px solid black;
-    padding-right: 20%;
-    margin-right: 20%;
+    padding-right: 10%;
+    margin-right: 15%;
 
 }
 
@@ -280,7 +299,14 @@ li.endereco {
     font-size: 97%;
 
 }
+.pagameto {
+    font-size: 100%;
+    width: 8%;
 
+}
+.pagamento1{display: flex;
+font-size: 80%;
+}
 .pix {
     display: flex;
     height: 100%;
@@ -296,6 +322,7 @@ li.preco1 {
 .final {
     display: flex;
     width: 100%;
+    font-size:80%
 }
 
 /* .lifinal{border-bottom:1px solid white;} */
