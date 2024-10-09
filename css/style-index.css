@@ -26,10 +26,9 @@ header img {
 
 h1{
     display: flex;
-    font-family: "Noto Serif", serif;
-    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
     font-size: 1.5rem;
     margin-left: 8%;
 }
@@ -47,9 +46,11 @@ main {
 main p {
     display: flex;
     font-size: 100%;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .ajuste{
@@ -95,11 +96,10 @@ article {
 
 h2{
     display: flex;
-    font-family: "Noto Serif", serif;
-    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .titulo {
@@ -108,10 +108,9 @@ h2{
     padding: 2% 0%;
     justify-content: center;
     background-color: #456173;
-    font-family: "Noto Serif", serif;
-    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
 }
 
 main img {
