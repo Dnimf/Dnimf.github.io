@@ -11,6 +11,7 @@ body {
     background-color: #F2E0D5;
 }
 
+
 header,
 main,
 footer {
