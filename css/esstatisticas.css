@@ -36,10 +36,9 @@ main{
 h1{
     font-size: 2.5rem;
     margin-right: 15%;
-    font-family: "Noto Serif", serif;
-    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
 }
 
 .grafico{
@@ -113,9 +112,11 @@ p {
     height: 100%;
     width: 80%;
     font-size: 1.1rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .imagens{
@@ -168,8 +169,7 @@ h2{
     height: 2rem;
     margin-top: 10.5%;
     padding: 2% 0%;
-    font-family: "Noto Serif", serif;
-    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
 }
