@@ -63,12 +63,13 @@ li{
     height: 7rem;
     background-color: #BF7c63;
 }
-.T2{
-    width: 60%;
+
+.T3{
+    width: 20rem;
     margin-right: 20%;
     margin-left: 20%;
     height: 3rem;
     font-size: 1.5rem;
     background-color: #456173;
-    color: #dfedf2;
+    color: #dfedf2; 
 }
