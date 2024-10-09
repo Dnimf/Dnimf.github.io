@@ -25,7 +25,6 @@ header {
     align-items: center;
     /* border: 1px solid black; */
     background-color: #456173;
-
 }
 
 header img {
