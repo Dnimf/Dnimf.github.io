@@ -4,7 +4,6 @@ body{
     background-color: #f2e0d5;
 }
 
-
 header{
     display: flex;
     flex-direction: row;
@@ -14,7 +13,6 @@ header{
     height: 20%;
     width: 100%;
 }
-
 
 a{
     display: flex;
@@ -30,22 +28,33 @@ main{
 }
 
 .voltar{
-    width: 60%;
-    height: 80%;
-    margin-left: 15%;
+    width: 70%;
+    height: 90%;
+    margin-left: 10%;
 }
 
 h1{
-    font-size: 2.7rem;
-    margin-right: 20%;
+    font-size: 2.5rem;
+    margin-right: 15%;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
-
 
 .grafico{
     display: flex;
     width: 150%;
     height:100%;
     background-color: #bf7c63
+}
+
+.grafico1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 footer {
@@ -71,31 +80,47 @@ li {
     align-items: center;
     width: 100%;
     height: 100%;
-    font-size: 100%;
 }
 
-.texto{
+.texto1 p{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 5%;
-    width: 25%;
-    height: 100%;
-    font-size: 1rem;
+    padding: 5%;
 }
 
-li p {
+.texto2 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+
+.texto3 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30%;
+}
+
+p {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 80%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .imagens{
-    width: 70%;
+    width: 90%;
+    padding: 2% 0%;
 }
 
 .tabela{
@@ -106,7 +131,7 @@ li p {
 article, main ul {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 150%;
     width: 100%;
     background-color: #BF7C63;
 }
@@ -143,8 +168,8 @@ h2{
     height: 2rem;
     margin-top: 10.5%;
     padding: 2% 0%;
-}
-
-article{
-    height: 8.25rem;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
