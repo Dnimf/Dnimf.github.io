@@ -3,6 +3,7 @@ body{
     height: 100%;
     width: 100%;
     background-color: #f2e0d5;
+    font-family: "Noto Serif", serif;
 }
 header{
     position: fixed;
@@ -14,7 +15,9 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-family: "Poppins", sans-serif;
 }
+
 header img{
     position: fixed;
     padding: 0.4rem;
@@ -38,13 +41,15 @@ footer{
     justify-content: space-around;
     align-items: center;
     font-size: 1rem;
+    font-family: "Poppins", sans-serif;
 }
+
 footer p{
     padding: 0.2rem;
 }
 footer img{
 
-    height: 3rem;
+    height: 2rem;
 }
 main{
     display: flex;
@@ -67,17 +72,19 @@ h2{
     background-color: #BF7c63;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+    font-family: "Poppins", sans-serif;
 }
 .inter{
-    width: 4rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .cont{
-    width: 3rem;
+    width: 2rem;
 }
 article{
     background-color: #BF7c63;
     display: flex;
-    width: 80%;
+    width: 75%;
 }
 ul{
     display: flex;
