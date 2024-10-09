@@ -28,8 +28,6 @@ header {
     /* border: 1px solid black; */
     font-size: 200%;
     background-color: #456173;
-    font-family: "Poppins", sans-serif;
-
 }
 
 a {
@@ -150,4 +148,7 @@ footer {
 footer img {
     display: flex;
     width: 100%;
+}
+h1{
+    font-family: "Poppins", sans-serif;
 }
