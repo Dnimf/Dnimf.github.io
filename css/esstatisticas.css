@@ -64,6 +64,7 @@ footer img {
     width: 100%;
 }
 
+
 li {
     display: flex;
     justify-content: center;
@@ -102,7 +103,7 @@ li p {
     justify-content: space-around;
 }
 
-main ul {
+article, main ul {
     display: flex;
     flex-direction: column;
     height: 100%;
