@@ -11,9 +11,10 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #456173;
-    height: 15%;
+    height: 20%;
     width: 100%;
 }
+
 
 a{
     display: flex;
@@ -29,14 +30,16 @@ main{
 }
 
 .voltar{
-    width: 50%;
-    height: 7%;
+    width: 60%;
+    height: 80%;
+    margin-left: 15%;
 }
 
 h1{
-    font-size: 2.5rem;
-
+    font-size: 2.7rem;
+    margin-right: 20%;
 }
+
 
 .grafico{
     display: flex;
@@ -52,7 +55,7 @@ footer {
     height: 15%;
     width: 100%;
     background-color: #456173;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 footer img {
@@ -70,20 +73,29 @@ li {
     font-size: 100%;
 }
 
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    width: 25%;
+    height: 100%;
+    font-size: 1rem;
+}
+
 li p {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 100%;
     height: 100%;
+    width: 80%;
     font-size: 1.2rem;
 }
 
 .imagens{
     width: 70%;
 }
-
-
 
 .tabela{
     display: flex;
@@ -103,14 +115,14 @@ main ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-
+    padding: 2% 0%;
 }
 
 .geral li{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .geral img{
@@ -120,10 +132,16 @@ main ul {
 }
 
 h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     background-color: #456173;
-    margin-top: 15%;
     width: 100%;
+    height: 2rem;
+    margin-top: 10.5%;
+    padding: 2% 0%;
 }
 
 article{
