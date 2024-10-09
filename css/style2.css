@@ -25,8 +25,9 @@ header {
     justify-content: space-between;
     align-items: center;
     /* border: 1px solid black; */
-    font-size: 200%;
+    font-size: 150%;
     background-color: #456173;
+    font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -38,6 +39,7 @@ a {
 img[alt="foto de perfil"] {
     display: flex;
     height: 80%;
+    padding-right: 1rem;
 }
 img[alt="anotacoes"]{background-color: white;}
 main {
@@ -83,7 +85,4 @@ footer {
 footer img {
     display: flex;
     width: 100%;
-}
-h1{
-    font-family: "Poppins", sans-serif;
 }
