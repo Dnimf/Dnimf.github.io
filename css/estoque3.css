@@ -1,0 +1,103 @@
+body,html{ 
+    height: 100%;
+    width: 100%;
+    background-color: #f2e0d5;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #456173;
+    height: 15%;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+ul p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-right: 5%;
+    width: 25%;
+    height: 100%;
+    font-size: 1rem;
+}
+
+ul li{
+    background-color: #D9B589;
+    padding: 3%;
+}
+
+.voltar{
+    width: 50%;
+    height: 50%;
+    margin-left: 15%;
+}
+
+h1{
+    font-size: 2rem;
+    margin-right: 40%;
+}
+
+h2{
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+main img{
+    width: 20%;
+    height: 20%;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 5%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    background-color: #bf7c63;
+    padding-bottom: 5%;
+    margin: 10% 0% 0% 15%;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    display: flex;
+    width: 35%;
+}
+
+a p{
+    margin-left: 5%;
+    font-size: 1.1rem;
+}
