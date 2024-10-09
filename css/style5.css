@@ -97,17 +97,7 @@ article {
 
 }
 
-.circulo1 {
-    display: flex;
-    margin: 10%;
-    background-color: #DFEDF2;
-    padding: 5%;
-    border-radius: 100%;
-    margin-right: -7%;
-    margin-left: 1%;
-    /* padding: 7.25%; */
-    height: 9.1%;
-}
+
 
 .circulo3 {
     display: flex;
@@ -131,6 +121,7 @@ article {
     height: 9.1%;
     margin-right: 1%;
 }
+
 .texto1 {
     display: flex;
     margin: 10%;
@@ -155,35 +146,47 @@ ul {
     justify-content: flex-start;
 }
 
-.você{display: flex;
-margin-top:-15%}
-.tabela {
+.você {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    height: 35%;
-    border: 1px solid black;
-    margin: 0%;
-    font-size: 100%
+    margin-top: -15%;
+    margin-bottom: -15%;
 }
 
-.tabela li {
+.circulo5 {
     display: flex;
-    height: 100%;
-    width: 100%
-}
-
-.próximo {
-    display: flex;
-    height: 80%;
-    width: 200%;
-    /* border-left:1px solid black; */
-}
-
-.tabela p {
-    border-right: 1px solid black;
+    margin: 10%;
+    background-color: #DFEDF2;
     padding: 5%;
+    border-radius: 100%;
+    margin-right: -7%;
+    margin-left: 1%;
+    /* padding: 7.25%; */
+    height: 9.1%;
+}
+
+.circulo6 {
+    display: flex;
+    margin: 10%;
+    background-color: #DFEDF2;
+    padding: 5%;
+    border-radius: 100%;
+    margin-left: -7%;
+    /* padding: 7.25%; */
+    height: 9.1%;
+}
+
+.resp {
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    background-color: #DFEDF2;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 9%;
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+
 }
 
 article {
@@ -191,7 +194,7 @@ article {
     flex-direction: column;
     align-items: center;
     width: 50%;
-    height: 15%;
+    height: 25%;
     /* padding-left: 5%; */
     font-size: 120%;
     position: fixed;
@@ -201,71 +204,71 @@ article {
     border-radius: 5%;
 }
 
-.vaso {
+
+.itens {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100%;
     width: 100%;
+}
+
+.itens li {
+    display: flex;
     border-bottom: 1px solid black;
-}
-
-.produtos {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+    height: 100%;
     width: 100%;
-    height: 100%;
-    /* border: 1px solid black; */
 }
 
-.quant {
-    margin-left: 230%;
+.produto li {
     display: flex;
     height: 100%;
-    border-left: solid black;
-}
-
-.vaso22 {
-    display: flex;
-    height: 100%;
-    margin-top: -8%;
-    border-right: solid black;
-    font-size: 90%;
-    padding-right: 57.25%;
-}
-
-.quant1 p {
-    display: flex;
-    height: 140%;
-    margin-top: -10%;
-    padding-top: 10%;
-}
-
-.vaso1 {
-    display: flex;
     width: 100%;
-    height: 80%;
-    justify-content: space-between;
-    border-bottom: solid black;
+    font-size: 80%;
 }
 
-.vaso2 {
+li.endereco {
     display: flex;
+    /* align-items:center; */
+    height: 20%;
     width: 100%;
-    height: 100%;
-    justify-content: space-between;
 }
 
-.vaso1 li {
+.endereco1 {
     display: flex;
+    align-items: center;
     height: 100%;
+    width: 100%;
 }
 
-.vaso2 li {
+.endereco li {
     display: flex;
     height: 80%;
-    padding-left: 0;
+    width: 100%;
+    font-size: 80%;
+    align-items: center;
+
+}
+
+.triangulo {
+    display: flex;
+    height: 50%;
+    width: 80%;
+    border: 1px solid black;
+    padding: 4%;
+    border-radius: 10%;
+}
+
+.valor {
+    border-right: 1px solid black;
+    padding-right: 20%;
+    margin-right: 20%;
+
+}
+
+.preco {
+    border-right: 1px solid black;
+    font-size: 97%;
+
 }
 
 footer {

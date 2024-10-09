@@ -86,16 +86,16 @@ article {
     padding: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
-    
+    font-size: 100%;
     margin-left: 0%;
     margin-right: 0%;
-
 }
 
 ul {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    height: 20%;
 }
 
 .tabela {
