@@ -21,7 +21,6 @@ ul{
     margin-top: 3%;
 }
 
-
 ul p{
     display: flex;
     flex-direction: column;
@@ -31,6 +30,9 @@ ul p{
     width: 25%;
     height: 100%;
     font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 ul li{
@@ -45,14 +47,23 @@ ul li{
 }
 
 h1{
-    font-size: 2rem;
-    margin-right: 40%;
+    font-size: 2.3rem;
+    margin-right: 35%;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 h2{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 50%;
     margin: 5% 0%;
+    padding-left: 3%;
+    font-family: "Noto Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 main img{
@@ -72,22 +83,22 @@ li{
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 67%;
     background-color: #bf7c63;
-    padding-bottom: 5%;
-    margin: 6% 0% 0% 15%;
+    padding: 3% 2%;
+    margin: 9% 0% 0% 15%;
 }
 
 .linha{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-footer li{
+footer a{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,5 +112,8 @@ footer img {
 
 a p{
     margin-left: 5%;
-    font-size: 1.1rem;
+    font-size: .9rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
