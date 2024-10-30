@@ -5,23 +5,25 @@ body{
     font-family: "Noto Serif", serif;
 }
 header{
-    display: flex;
     position: fixed;
+    top:0px;
     width: 100%;
     height: 10%;
     justify-content: center;
     align-items: center;
     background-color: #456173;
+    font-size: 1.5rem;
 }
 .voltar{
     position: fixed;
-    top: 0.2rem;
-    left: 0.2rem;
-    height: 4rem;
+    padding: 1.5%;
+    height: 8%;
 }
 .pesquisar{
+    display: fixed;
+    padding-inline: 10%;
     height: 7rem;
-    width: 20rem;
+    width: 30rem;
 }
 
 
@@ -42,13 +44,14 @@ footer img {
     width: 100%;
 }
 main{
+    font-size: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
-    height: 100%;
-    padding-top: 20%;
+    height: 60%;
+    padding-top: 25%;
     padding-bottom: 20%;
     background-color:#f2e0d5 ;
 }
@@ -62,19 +65,21 @@ li{
     justify-content: center;
     align-items: center;
     margin: 0.5rem;
-    width: 7rem;
-    height: 7rem;
+    width: 11rem;
+    height: 11rem;
     background-color: #BF7c63;
 }
 
 .T3{
-    width: 20rem;
+    width: 25rem;
+    
     margin-right: 20%;
     margin-left: 20%;
     height: 3rem;
-    font-size: 1.5rem;
+    font-size: 3rem;
     background-color: #456173;
     font-family: "Poppins", sans-serif;
+    padding: 0.5rem;
 }
 ul{
     display: flex;
@@ -89,4 +94,7 @@ ul{
 }
 h1{
     font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    
 }
