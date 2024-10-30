@@ -29,7 +29,7 @@ h1{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-left: 8%;
 }
 
@@ -40,12 +40,12 @@ main {
     align-items: center;
     height:73.5%;
     width: 80%;
-    margin: 3% 0%;
+    margin: 6% 0%;
 }
 
 main p {
     display: flex;
-    font-size: 100%;
+    font-size: 150%;
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -56,7 +56,7 @@ main p {
 .ajuste{
     display: flex;
     width: 100%;
-    padding: 2% 0%;
+    padding: 4% 0%;
     justify-content: center;
 }
 
@@ -100,7 +100,7 @@ h2{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 
 .titulo {
@@ -163,11 +163,13 @@ li img {
 }
 
 footer {
+    position: fixed;
     display: flex;
     justify-content: space-evenly;
-    height: 13%;
+    height: 10%;
     width: 100%;
     background-color: #456173;
+    bottom: 0;
 
 }
 
