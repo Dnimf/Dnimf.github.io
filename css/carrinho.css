@@ -19,14 +19,14 @@ header{
 
 header img{
     position: fixed;
-    padding: 0.4rem;
+    padding: 2%;
     top: 0rem;
     left: 0rem;
-    height: 4rem;
+    height: 6rem;
 }
 h1{
     display: flex;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 footer{
@@ -39,8 +39,9 @@ footer{
     color: #dfedf2;
     justify-content: space-around;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: "Poppins", sans-serif;
+
 }
 
 footer p{
@@ -48,7 +49,7 @@ footer p{
 }
 footer img{
 
-    height: 2rem;
+    height: 3rem;
 }
 main{
     display: flex;
@@ -65,13 +66,14 @@ main{
 h2{ 
     display: flex;
     justify-content: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 70%;
     background-color: #BF7c63;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     font-family: "Poppins", sans-serif;
+    font-size: 2rem;
 }
 .inter{
     width: 2.5rem;
@@ -96,10 +98,11 @@ li{
     border: 1px solid #dfedf2;
 }
 main img{
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
 }
 p{
+    font-size: 1.5rem;
     padding: 0.5rem;
 }
 .Quant{
