@@ -20,6 +20,7 @@ header{
     height: 8%;
 }
 .pesquisar{
+    padding-top:-1.5rem ;
     padding-inline: 10%;
     height: 7rem;
     width: 20rem;
