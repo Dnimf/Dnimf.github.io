@@ -1,5 +1,6 @@
 {
     "githubPullRequests.ignoredPullRequestBranches": [
         "dani"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
