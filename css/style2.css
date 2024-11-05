@@ -85,7 +85,42 @@ main {
     margin-left: -7%;
     padding: 8%;
 }
+.circulo3 {
+    display: flex;
+    margin: 10%;
+    background-color: #0477BF;
+    padding: 5%;
+    border-radius: 100%;
+    margin-right: -7%;
+    /* padding: 7.25%; */
+    height: 9.1%;
+}
+.texto1 {
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    background-color: #0477BF;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 9%;
+    margin-left: 1.2%;
+    margin-right: 1.2%;
 
+
+}
+
+.circulo4 {
+    display: flex;
+    margin: 10%;
+    background-color: #0477BF;
+    padding: 5%;
+    border-radius: 100%;
+    margin-left: -7%;
+    /* padding: 7.25%; */
+    height: 9.1%;
+    margin-right: 1%;
+}
 .texto {
     display: flex;
     margin: 10%;
