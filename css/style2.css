@@ -55,7 +55,7 @@ img[alt="anotacoes"] {
     display: flex;
     height: 10%;
     padding-right: 0rem;
-    top: 0%;
+    top: -1%;
     right:0rem;
 }
 
@@ -104,15 +104,17 @@ ul {
 
 footer {
     display: flex;
-    height: 12%;
+    flex-direction:column;
+    justify-content: column;
+    height: 32%;
     width: 100%;
 }
 
 footer img {
     display: flex;
-    width: 95%;
+    width: 100%;
     height: 80%;
-    margin-left: 3%;
+    /* margin-left: 3%; */
     /* margin-bottom: -10%; */
     /* padding-bottom: -10%; */
 }
