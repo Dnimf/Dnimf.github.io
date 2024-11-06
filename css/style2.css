@@ -136,6 +136,45 @@ ul {
     align-items: center;
     justify-content: flex-start;
 }
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 35%;
+    border: 1px solid black;
+    margin: 0%;
+    font-size: 100%
+}
+
+.tabela li {
+    display: flex;
+    height: 100%;
+    width: 100%
+}
+
+.próximo {
+    display: flex;
+    height: 80%;
+    width: 200%;
+    /* border-left:1px solid black; */
+}
+.tabela p{border-right:1px solid black;
+padding:5%;}
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 15%;
+    padding-left: 5%;
+    font-size: 120%;
+    position:fixed;
+    right: 1%;
+    top:11%;
+background-color: white;
+border-radius:5%;
+}
 
 footer {
     display: flex;
