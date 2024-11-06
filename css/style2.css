@@ -36,6 +36,7 @@ header {
     padding: 0.5%;
     margin-right: 0;
 }
+
 a {
     display: flex;
     height: 80%;
@@ -46,7 +47,7 @@ img[alt="foto de perfil"] {
     display: flex;
     height: 90%;
     padding-right: 0rem;
-    left:0rem;
+    left: 0rem;
 }
 
 img[alt="anotacoes"] {
@@ -56,7 +57,7 @@ img[alt="anotacoes"] {
     height: 80%;
     padding-right: 0rem;
     top: -1%;
-    right:0rem;
+    right: 0rem;
 }
 
 main {
@@ -85,6 +86,7 @@ main {
     margin-left: -7%;
     padding: 8%;
 }
+
 .circulo3 {
     display: flex;
     margin: 10%;
@@ -95,6 +97,7 @@ main {
     /* padding: 7.25%; */
     height: 9.1%;
 }
+
 .texto1 {
     display: flex;
     margin: 10%;
@@ -121,6 +124,7 @@ main {
     height: 9.1%;
     margin-right: 1%;
 }
+
 .texto {
     display: flex;
     margin: 10%;
@@ -136,6 +140,13 @@ ul {
     align-items: center;
     justify-content: flex-start;
 }
+
+.tabela1 {
+    display: flex;
+    position: fixed;
+    right: -1000px;
+}
+
 .tabela {
     display: flex;
     align-items: center;
@@ -159,9 +170,13 @@ ul {
     width: 200%;
     /* border-left:1px solid black; */
 }
-.tabela p{border-right:1px solid black;
-padding:5%;}
-article {
+
+.tabela p {
+    border-right: 1px solid black;
+    padding: 5%;
+}
+
+/* article {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,13 +187,63 @@ article {
     position:fixed;
     right: 1%;
     top:11%;
-background-color: white;
-border-radius:5%;
+    background-color: white;
+    border-radius:5%;
+} */
+.tabela1 {
+    display: flex;
+    position: fixed;
+    /* right: -1000px; */
+}
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 15%;
+    /* padding-left: 5%; */
+    font-size: 120%;
+    position: fixed;
+    right: 1%;
+    top: 11%;
+    background-color: white;
+    border-radius: 5%;
+    border-color: 1px solid black;
+}
+
+.vaso {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.vaso1{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    border-bottom:1px solid black;
+}
+.vaso2{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.quant {
+    display: flex;
+    border-left: 1px solid black;
+    height:100%;
 }
 
 footer {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: column;
     height: 32%;
     width: 100%;

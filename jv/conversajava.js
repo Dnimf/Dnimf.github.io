@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    popup1=document.querySelectorAll('img')
-    popup2=popup1[1]
-    popup2.addEventListener('click', function(){
-        popup2.style.backgroundColor='black'
-        console.log('a')
+    livro=document.querySelectorAll('img')[2]
+    popup1=document.querySelector('.tabela1')
+    livro.addEventListener('click', function(){
+        // popup1.style.backgroundColor='black'
+        console.log(popup1)
+        popup1.style.right=0
     })
 })
