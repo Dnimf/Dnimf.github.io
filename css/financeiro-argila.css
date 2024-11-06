@@ -5,12 +5,14 @@ body{
 }
 
 header{
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: #456173;
-    height: 25%;
+    height: 10%;
     width: 100%;
 }
 
@@ -24,7 +26,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15% 7.2%;
+    margin: 40% 7.2%;
 }
 
 footer{
@@ -33,6 +35,7 @@ footer{
     align-items: center;
     margin: 10% 7.2%;
     height: 40%;
+    bottom: 0;
 }
 
 ul{
@@ -45,15 +48,16 @@ ul{
 .voltar{
     width: 80%;
     height: 100%;
+    margin-left: 20%;
 }
 
 .vaso{
-    width: 25%;
-    height: 25%;
+    width: 7rem;
+    height: 7rem;
 }
 
 h1{
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -62,7 +66,7 @@ h1{
 .legenda{
     background-color: #456173;
     width: 100%;
-    height: 2rem;
+    height: 4rem;
 }
 
 .tabela{
@@ -94,7 +98,7 @@ p{
     align-items: center;
     width: 25%;
     height: 100%;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -107,9 +111,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 25%;
-    height: 100%;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
