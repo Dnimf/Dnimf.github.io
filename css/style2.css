@@ -51,9 +51,9 @@ img[alt="foto de perfil"] {
 
 img[alt="anotacoes"] {
     /* background-color: white; */
-    position:fixed;
+    /* position:fixed; */
     display: flex;
-    height: 10%;
+    height: 80%;
     padding-right: 0rem;
     top: -1%;
     right:0rem;
