@@ -40,11 +40,7 @@ main p{
     font-weight: 400;
     font-style: normal;
 }
-a:link{
-    text-decoration: none;
-    color: black;
-}
-a:visited{
+a:link, a:visited{
     text-decoration: none;
     color: black;
 }
@@ -77,16 +73,4 @@ ul img{
 .img_a{
     width: 50%;
     height: 50%;
-}
-
-footer {
-    position: fixed;
-    display: flex;
-    width: 100%;
-    bottom: 0;
-}
-
-footer img {
-    display: flex;
-    width: 100%;
 }
