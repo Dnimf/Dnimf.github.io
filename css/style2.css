@@ -190,10 +190,10 @@ ul {
     background-color: white;
     border-radius:5%;
 } */
-.tabela1 {
+.tabela2 {
     display: flex;
     position: fixed;
-    /* right: -1000px; */
+    right: -1000px;
 }
 article {
     display: flex;
