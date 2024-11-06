@@ -9,21 +9,16 @@ header{
     top:0px;
     width: 100%;
     height: 10%;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #456173;
-    font-size: 1.5rem;
 }
 .voltar{
-    position: fixed;
-    padding: 1.5%;
-    height: 8%;
+    height: 5rem;
 }
 .pesquisar{
-    padding-top:-1.5rem ;
-    padding-inline: 10%;
     height: 7rem;
-    width: 20rem;
 }
 
 
