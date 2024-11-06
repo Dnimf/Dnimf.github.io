@@ -29,7 +29,7 @@ h1{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 8%;
 }
 
@@ -56,7 +56,7 @@ main p {
 .ajuste{
     display: flex;
     width: 100%;
-    padding: 4% 0%;
+    padding: 2% 0%;
     justify-content: center;
 }
 
@@ -100,7 +100,7 @@ h2{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
 }
 
 .titulo {
