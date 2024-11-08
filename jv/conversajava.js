@@ -16,6 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     vaso.addEventListener('click',function(){
         popup3.style.right='5px'
-        popup3.style.height='25%'
+        popup3.style.height='30%'
     })
 })

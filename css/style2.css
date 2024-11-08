@@ -243,7 +243,7 @@ article {
     display: flex;
     border-left: 1px solid black;
     height: 100%;
-    margin-left:10%;
+    margin-left: 10%;
 }
 
 .quant1 {
@@ -253,17 +253,21 @@ article {
     /* width: 100%; */
     margin-left: 71%;
 }
+
 /* tabela3 */
 .itens {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 90%;
     width: 100%;
-}
+    border-top: 1px solid black;
 
+}
+h3{display:flex;
+padding-bottom:2.5%;}
 .itens li {
     display: flex;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     height: 100%;
     width: 100%;
 }
@@ -274,10 +278,15 @@ article {
     width: 100%;
     font-size: 80%;
 }
-
+.produto1{display:flex;
+border-right:1px solid black;
+height:100%;}
+.quanti{
+    border-left:1px solid black;
+}
 li.endereco {
     display: flex;
-    /* align-items:center; */
+    align-items:center;
     height: 20%;
     width: 100%;
 }
@@ -287,6 +296,8 @@ li.endereco {
     align-items: center;
     height: 100%;
     width: 100%;
+    border-top: 1px solid black;
+
 }
 
 .endereco li {
@@ -298,18 +309,67 @@ li.endereco {
 
 }
 
-.triangulo {
+img[alt='lista'] {
     display: flex;
-    height: 50%;
-    width: 80%;
+    height: 80%;
+    width: 40%;
     border: 1px solid black;
     padding: 4%;
     border-radius: 10%;
 }
-.tabela3{
-    display:flex;
-    right:-1000px;
+.pagamento{
+    border-right: 1px solid black;
+    width: 50%;
 }
+.valor{
+    display: flex;
+    border-right: 1px solid black;
+    height: 80%;}
+.valor1{display:flex;
+    border-top: 1px solid black;
+    width: 100%;
+}
+.pagamento1{
+    display:flex;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.tabela3 {
+    display: flex;
+    flex-direction: column;
+    right: -1000px;
+}
+.valor2{display:flex;
+height:80%;}
+/* .itens {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+} */
+/* .itens li{border-top:1px solid black;} */
+/* .endereco {
+    display: flex;
+    width: 100%;
+    height:40%;
+
+}
+
+.endereco1 {
+    display: flex;
+    width: 100%;
+    height:40%;
+}
+
+.triangulo {
+    display: flex;
+    height: 50%;
+    width: 50%;
+} */
+
 footer {
     display: flex;
     flex-direction: column;
