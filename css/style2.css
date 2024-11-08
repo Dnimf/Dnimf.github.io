@@ -253,7 +253,63 @@ article {
     /* width: 100%; */
     margin-left: 71%;
 }
+/* tabela3 */
+.itens {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
 
+.itens li {
+    display: flex;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.produto li {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: 80%;
+}
+
+li.endereco {
+    display: flex;
+    /* align-items:center; */
+    height: 20%;
+    width: 100%;
+}
+
+.endereco1 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.endereco li {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    font-size: 80%;
+    align-items: center;
+
+}
+
+.triangulo {
+    display: flex;
+    height: 50%;
+    width: 80%;
+    border: 1px solid black;
+    padding: 4%;
+    border-radius: 10%;
+}
+.tabela3{
+    display:flex;
+    right:-1000px;
+}
 footer {
     display: flex;
     flex-direction: column;
