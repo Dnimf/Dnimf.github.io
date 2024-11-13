@@ -362,9 +362,98 @@ img[alt='lista'] {
     height: 80%;
 }
 
+/* tabela4 */
 .tabela4 {
     position: fixed;
     right: -1000px;
+}
+
+.produto li {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: 80%;
+}
+
+li.endereco {
+    display: flex;
+    /* align-items:center; */
+    height: 20%;
+    width: 100%;
+}
+
+.endereco1 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.endereco2 {
+    display: flex;
+    height: 120%;
+    width: 100%;
+    border-right: 1px solid black;
+}
+
+.endereco li {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    font-size: 80%;
+    align-items: center;
+
+}
+
+.triangulo {
+    display: flex;
+    height: 50%;
+    width: 80%;
+    border: 1px solid black;
+    padding: 4%;
+    border-radius: 10%;
+}
+
+.valor {
+    border-right: 1px solid black;
+    padding-right: 10%;
+    margin-right: 15%;
+
+}
+
+.preco {
+    border-right: 1px solid black;
+    font-size: 97%;
+
+}
+
+.pagameto {
+    font-size: 100%;
+    width: 8%;
+
+}
+
+.pagamento1 {
+    display: flex;
+    font-size: 80%;
+}
+
+.pix {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+li.preco1 {
+    display: flex;
+    height: 15%;
+    width: 100%;
+}
+
+.final {
+    display: flex;
+    width: 100%;
+    font-size: 80%
 }
 
 footer {
