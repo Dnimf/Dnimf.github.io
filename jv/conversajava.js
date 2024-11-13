@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
     popup2=document.querySelector('.tabela2')
     vaso=popup2.querySelector('.vaso2')
     popup3=document.querySelector('.tabela3')
+    popup4=document.querySelector('.tabela4')
     artigo=document.querySelector('article')
+    proximo2=popup3.querySelector('.triangulo')
     livro.addEventListener('click', function(){
         // popup1.style.backgroundColor='black'
         console.log(popup1)
@@ -17,5 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
     vaso.addEventListener('click',function(){
         popup3.style.right='5px'
         popup3.style.height='30%'
+    })
+    proximo2.addEventListener('click',function(){
+        popup4.style.right='5px'
+        popup4.style.height='30%'
     })
 })
