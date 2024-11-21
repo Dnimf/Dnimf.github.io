@@ -14,8 +14,7 @@ header{
     background-color: #456173;
     height: 10%;
     width: 100%;
-    padding-left: 5%;
-    padding-right: 2%;
+    padding-right: 20%;
 }
 
 
@@ -45,9 +44,13 @@ a:link, a:visited{
     color: black;
 }
 
-.img{
-    width: 80%;
-    height: 100%;
+.voltar{
+    height: 3rem;
+    padding-left: 5rem;
+}
+
+.pesquisa{
+    width: 100%;
 }
 
 .linha{
