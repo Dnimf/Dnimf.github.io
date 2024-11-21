@@ -31,10 +31,8 @@ header {
 
 .voltar {
     display: flex;
-    height: 80%;
-    width: 80%;
-    padding: 0.5%;
-    margin-right: 0;
+    height: 50%;
+    width: 40%;
 }
 
 a {
@@ -58,6 +56,13 @@ img[alt="anotacoes"] {
     padding-right: 0rem;
     top: -1%;
     right: 0rem;
+}
+
+h1{
+    display: flex;
+    padding-left: 3rem;
+    font-size: 2rem;
+    color: white;
 }
 
 main {

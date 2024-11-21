@@ -23,6 +23,7 @@ header {
         font-size: 3rem;
         align-items: center;
         font-family: "Poppins", sans-serif;
+        padding-left: 5%;
 }
 img[alt="buscar"]{
         display: flex;
@@ -38,10 +39,16 @@ img[alt="filtro"]{
 }
 .volt {
         display: flex;
-        height: 80%;
-        width: 80%;
-        padding: 0.5%;
+        height: 50%;
+        width: 40%;
 }
+
+h1{
+        display: flex;
+        padding-left: 1rem;
+        font-size: 3rem;
+        color: white;
+    }
 
 .topo {
         display: flex;

@@ -25,17 +25,18 @@ main{
 }
 
 .voltar{
-    width: 50%;
-    height: 50%;
-    padding-left: 10%;
+    width: 30%;
+    height: 30%;
+    padding-left: 30%;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-right: 20%;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 
 .grafico{
@@ -147,6 +148,7 @@ h2{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
 }
 a:link, a:visited{
     text-decoration: none;
