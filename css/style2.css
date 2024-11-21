@@ -97,8 +97,8 @@ main {
     /* padding: 7.25%; */
     height: 9.1%;
 }
-.voce{position:fixed;
-left: -100px;}
+/* .voce{position:fixed;
+left: -1000px;} */
 .texto1 {
     display: flex;
     margin: 10%;
@@ -177,20 +177,6 @@ ul {
     padding: 5%;
 }
 
-/* article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    height: 15%;
-    padding-left: 5%;
-    font-size: 120%;
-    position:fixed;
-    right: 1%;
-    top:11%;
-    background-color: white;
-    border-radius:5%;
-} */
 .tabela2 {
     display: flex;
     position: fixed;
@@ -321,11 +307,13 @@ li.endereco {
 
 img[alt='lista'] {
     display: flex;
-    height: 80%;
+    height: 70%;
     width: 40%;
     border: 1px solid black;
     padding: 4%;
     border-radius: 10%;
+    margin-top: 2%;
+    margin-left: 10%;
 }
 
 .pagamento {
@@ -399,7 +387,7 @@ li.endereco {
 
 .endereco li {
     display: flex;
-    height: 80%;
+    height: 100%;
     width: 100%;
     font-size: 80%;
     align-items: center;
@@ -408,11 +396,11 @@ li.endereco {
 
 .triangulo {
     display: flex;
-    height: 50%;
-    width: 80%;
-    border: 1px solid black;
-    padding: 4%;
-    border-radius: 10%;
+    height: 80%;
+    width: 10%;
+    border-left: 1px solid black;
+    padding: -4%;
+    /* border-radius: 10%; */
 }
 
 .valor {

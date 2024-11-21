@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     proximo.addEventListener('click', function(){
         popup2.style.right='5px'
+        popup2.style.height='20%'
     })
     vaso.addEventListener('click',function(){
         popup3.style.right='5px'
@@ -25,5 +26,5 @@ document.addEventListener('DOMContentLoaded', function() {
         popup4.style.right='5px'
         popup4.style.height='30%'
     })
-    
+
 })
