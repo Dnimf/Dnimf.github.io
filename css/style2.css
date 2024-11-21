@@ -77,7 +77,7 @@ main {
     border-radius: 100%;
     margin-right: -7%;
     margin-left: 1%;
-    padding: 8%;
+    padding: 10%;
 }
 
 .circulo2 {
@@ -86,7 +86,7 @@ main {
     background-color: #DFEDF2;
     border-radius: 100%;
     margin-left: -7%;
-    padding: 8%;
+    padding: 10%;
 }
 
 .circulo3 {
@@ -338,6 +338,7 @@ img[alt='lista'] {
 .pagamento1 {
     display: flex;
     width: 100%;
+    height: 70%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -369,7 +370,7 @@ img[alt='lista'] {
 li.endereco {
     display: flex;
     /* align-items:center; */
-    height: 20%;
+    height: 80%;
     width: 100%;
 }
 
