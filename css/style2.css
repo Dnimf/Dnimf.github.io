@@ -456,7 +456,8 @@ li.preco1 {
 .final {
     display: flex;
     width: 100%;
-    font-size: 80%
+    font-size: 80%;
+    /* position:; */
 }
 
 footer {
