@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     vaso.addEventListener('click',function(){
         popup3.style.right='5px'
-        popup3.style.height='30%'
+        popup3.style.height='35%'
     })
     proximo2.addEventListener('click',function(){
         popup4.style.right='5px'
-        popup4.style.height='30%'
+        popup4.style.height='35%'
     })
 
 })
