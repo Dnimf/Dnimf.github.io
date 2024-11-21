@@ -19,6 +19,13 @@ header{
     width: 80%;
     height: 100%;
 }
+.pesquisar{
+    width: 100%;
+}
+.voltar{
+    padding-left: 1.5rem;
+    height: 3rem;
+}
 
 footer {
     display: flex;
