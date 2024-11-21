@@ -46,7 +46,7 @@ img[alt="foto de perfil"] {
     height: 95%;
     padding-right: 0rem;
     left: 0rem;
-    margin-left: -5%;
+    margin-left: -15%;
 }
 
 
@@ -82,7 +82,7 @@ main {
     border-radius: 100%;
     margin-right: -8%;
     margin-left: 1%;
-    padding: 9%;
+    padding: 9.1%;
 }
 
 .circulo2 {
@@ -91,7 +91,7 @@ main {
     background-color: #DFEDF2;
     border-radius: 100%;
     margin-left: -7%;
-    padding: 9%;
+    padding: 9.1%;
 }
 
 .circulo3 {
@@ -100,9 +100,9 @@ main {
     background-color: #0477BF;
     padding: 5%;
     border-radius: 100%;
-    margin-right: -7%;
+    margin-right: -8%;
     padding: 7.25%;
-    height: 9.1%;
+    height: 9.5%;
 }
 /* .voce{position:fixed;
 left: -1000px;} */

@@ -53,6 +53,13 @@ a:link, a:visited{
     width: 100%;
 }
 
+.img1{
+    width: 70%;
+    height: 100%;
+    padding-left: 10%;
+
+}
+
 .linha{
     display: flex;
     flex-direction: row;
