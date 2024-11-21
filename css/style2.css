@@ -383,7 +383,7 @@ li.endereco {
 
 .endereco2 {
     display: flex;
-    height: 120%;
+    height: 100%;
     width: 100%;
     border-right: 1px solid black;
 }
