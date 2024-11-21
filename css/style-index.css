@@ -138,10 +138,11 @@ main img {
 
 .estoque {
     display: flex;
-    height: 30%;
+    height: 35%;
     width: 95%;
     flex-direction: column;
     background-color: #456173;
+    padding-bottom: 3.5rem;
 }
 
 main ul {
