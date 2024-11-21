@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     popup4=document.querySelector('.tabela4')
     artigo=document.querySelector('article')
     proximo2=popup3.querySelector('.triangulo')
+    voce=document.querySelector('.voce')
     livro.addEventListener('click', function(){
         // popup1.style.backgroundColor='black'
         console.log(popup1)
@@ -24,4 +25,5 @@ document.addEventListener('DOMContentLoaded', function() {
         popup4.style.right='5px'
         popup4.style.height='30%'
     })
+    
 })

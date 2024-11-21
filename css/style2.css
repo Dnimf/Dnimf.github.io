@@ -97,7 +97,8 @@ main {
     /* padding: 7.25%; */
     height: 9.1%;
 }
-
+.voce{position:fixed;
+left: -100px;}
 .texto1 {
     display: flex;
     margin: 10%;
