@@ -22,7 +22,7 @@ header {
     display: flex;
     height: 10%;
     width: 100%;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
     font-size: 200%;
     background-color: #456173;
@@ -46,7 +46,9 @@ img[alt="foto de perfil"] {
     height: 90%;
     padding-right: 0rem;
     left: 0rem;
+    margin-left: -5%;
 }
+
 
 img[alt="anotacoes"] {
     /* background-color: white; */
@@ -78,9 +80,9 @@ main {
     margin: 10%;
     background-color: #DFEDF2;
     border-radius: 100%;
-    margin-right: -7%;
+    margin-right: -8%;
     margin-left: 1%;
-    padding: 8%;
+    padding: 9%;
 }
 
 .circulo2 {
@@ -89,7 +91,7 @@ main {
     background-color: #DFEDF2;
     border-radius: 100%;
     margin-left: -7%;
-    padding: 8%;
+    padding: 9%;
 }
 
 .circulo3 {
@@ -99,10 +101,11 @@ main {
     padding: 5%;
     border-radius: 100%;
     margin-right: -7%;
-    /* padding: 7.25%; */
+    padding: 7.25%;
     height: 9.1%;
 }
-
+/* .voce{position:fixed;
+left: -1000px;} */
 .texto1 {
     display: flex;
     margin: 10%;
@@ -111,10 +114,10 @@ main {
     padding: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
-    height: 9%;
+    height: 20%;
     margin-left: 1.2%;
     margin-right: 1.2%;
-
+    font-size: 150%;
 
 }
 
@@ -125,7 +128,7 @@ main {
     padding: 5%;
     border-radius: 100%;
     margin-left: -7%;
-    /* padding: 7.25%; */
+    padding: 7.25%;
     height: 9.1%;
     margin-right: 1%;
 }
@@ -137,7 +140,7 @@ main {
     padding: 5%;
     margin-left: 0%;
     margin-right: 0%;
-    font-size: 150%;
+    font-size: 200%;
 }
 
 ul {
@@ -181,20 +184,6 @@ ul {
     padding: 5%;
 }
 
-/* article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    height: 15%;
-    padding-left: 5%;
-    font-size: 120%;
-    position:fixed;
-    right: 1%;
-    top:11%;
-    background-color: white;
-    border-radius:5%;
-} */
 .tabela2 {
     display: flex;
     position: fixed;
@@ -263,7 +252,7 @@ article {
 .itens {
     display: flex;
     flex-direction: column;
-    height: 90%;
+    height: 80%;
     width: 100%;
     border-top: 1px solid black;
 
@@ -325,11 +314,13 @@ li.endereco {
 
 img[alt='lista'] {
     display: flex;
-    height: 80%;
+    height: 70%;
     width: 40%;
     border: 1px solid black;
     padding: 4%;
     border-radius: 10%;
+    margin-top: 2%;
+    margin-left: 10%;
 }
 
 .pagamento {
@@ -352,6 +343,7 @@ img[alt='lista'] {
 .pagamento1 {
     display: flex;
     width: 100%;
+    height: 70%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -383,7 +375,7 @@ img[alt='lista'] {
 li.endereco {
     display: flex;
     /* align-items:center; */
-    height: 20%;
+    height: 80%;
     width: 100%;
 }
 
@@ -396,14 +388,14 @@ li.endereco {
 
 .endereco2 {
     display: flex;
-    height: 120%;
+    height: 100%;
     width: 100%;
     border-right: 1px solid black;
 }
 
 .endereco li {
     display: flex;
-    height: 80%;
+    height: 100%;
     width: 100%;
     font-size: 80%;
     align-items: center;
@@ -412,11 +404,11 @@ li.endereco {
 
 .triangulo {
     display: flex;
-    height: 50%;
-    width: 80%;
-    border: 1px solid black;
+    height: 80%;
+    width: 10%;
+    border-left: 1px solid black;
     padding: 4%;
-    border-radius: 10%;
+    /* border-radius: 10%; */
 }
 
 .valor {

@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     popup4=document.querySelector('.tabela4')
     artigo=document.querySelector('article')
     proximo2=popup3.querySelector('.triangulo')
+    voce=document.querySelector('.voce')
     livro.addEventListener('click', function(){
         // popup1.style.backgroundColor='black'
         console.log(popup1)
@@ -15,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     proximo.addEventListener('click', function(){
         popup2.style.right='5px'
+        popup2.style.height='20%'
     })
     vaso.addEventListener('click',function(){
         popup3.style.right='5px'
@@ -24,4 +26,5 @@ document.addEventListener('DOMContentLoaded', function() {
         popup4.style.right='5px'
         popup4.style.height='30%'
     })
+
 })
