@@ -175,6 +175,7 @@ footer {
 
 footer img {
     display: flex;
-    height: 100%;
-    width: 100%;
+    padding-top: 30%;
+    height: 60%;
+    width: 80%;
 }
