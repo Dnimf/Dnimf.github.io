@@ -247,7 +247,7 @@ article {
 .itens {
     display: flex;
     flex-direction: column;
-    height: 90%;
+    height: 80%;
     width: 100%;
     border-top: 1px solid black;
 
