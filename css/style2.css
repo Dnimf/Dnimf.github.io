@@ -75,9 +75,9 @@ main {
     margin: 10%;
     background-color: #DFEDF2;
     border-radius: 100%;
-    margin-right: -7%;
+    margin-right: -8%;
     margin-left: 1%;
-    padding: 10%;
+    padding: 9%;
 }
 
 .circulo2 {
@@ -86,7 +86,7 @@ main {
     background-color: #DFEDF2;
     border-radius: 100%;
     margin-left: -7%;
-    padding: 10%;
+    padding: 9%;
 }
 
 .circulo3 {
@@ -109,10 +109,10 @@ left: -1000px;} */
     padding: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
-    height: 9%;
+    height: 20%;
     margin-left: 1.2%;
     margin-right: 1.2%;
-    font-size: 80%;
+    font-size: 150%;
 
 }
 
@@ -135,7 +135,7 @@ left: -1000px;} */
     padding: 5%;
     margin-left: 0%;
     margin-right: 0%;
-    font-size: 150%;
+    font-size: 200%;
 }
 
 ul {
