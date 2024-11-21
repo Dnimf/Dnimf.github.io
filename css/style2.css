@@ -439,6 +439,7 @@ li.endereco {
 .pagamento1 {
     display: flex;
     font-size: 80%;
+    /* height:90%; */
 }
 
 .pix {

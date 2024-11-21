@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     proximo2.addEventListener('click',function(){
         popup4.style.right='5px'
-        popup4.style.height='30%'
+        popup4.style.height='35%'
     })
 
 })
