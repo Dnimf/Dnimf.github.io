@@ -20,8 +20,8 @@ header {
 header img {
     display: flex;
     justify-content: flex-end;
-    height: 70%;
-    margin-right: 3%;
+    height: 40%;
+    margin-right: 7%;
 }
 
 h1{
@@ -29,8 +29,9 @@ h1{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-left: 8%;
+    color: white;
 }
 
 main {
@@ -56,8 +57,9 @@ main p {
 .ajuste{
     display: flex;
     width: 100%;
-    padding: 2% 0%;
+    padding: 5% 0%;
     justify-content: center;
+    color: white;
 }
 
 .ajuste2{
@@ -100,7 +102,8 @@ h2{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    color: white;
 }
 
 .titulo {

@@ -14,13 +14,11 @@ header{
     align-items: center;
     background-color: #456173;
 }
-.voltar{
-    height: 3rem;
-}
-.pesquisar{
-    height: 5rem;
-}
 
+.img{
+    width: 80%;
+    height: 100%;
+}
 
 footer {
     display: flex;
@@ -76,6 +74,8 @@ li{
     background-color: #456173;
     font-family: "Poppins", sans-serif;
     padding: 0.5rem;
+    color: white;
+
 }
 ul{
     display: flex;
