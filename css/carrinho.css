@@ -19,11 +19,12 @@ header{
 
 .voltar{
     width: 3rem;
+    padding-left: 5%;
 }
 
 h1{
     display: flex;
-    padding-left: 2rem;
+    padding-left: 1.6rem;
     font-size: 3rem;
     color: white;
 }
