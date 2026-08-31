@@ -1,0 +1,282 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Noto Serif", serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2E0D5;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    font-size: 200%;
+    background-color: #456173;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    display: flex;
+    height: 80%;
+    width: 2%;
+    padding-right: 1%;
+    margin-right: 1%;
+}
+
+
+
+img {
+    display: flex;
+    height: 80%;
+}
+
+img[alt="anotacoes"] {
+    background-color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+article {
+    border: 1px solid black;
+}
+
+.circulo1 {
+    display: flex;
+    margin: 10%;
+    background-color: #DFEDF2;
+    padding: 5%;
+    border-radius: 100%;
+    margin-right: -7%;
+    margin-left: 1%;
+    /* padding: 7.25%; */
+    height: 9.1%;
+}
+
+.circulo2 {
+    display: flex;
+    margin: 10%;
+    background-color: #DFEDF2;
+    padding: 5%;
+    border-radius: 100%;
+    margin-left: -7%;
+    /* padding: 7.25%; */
+    height: 9.1%;
+}
+
+.Jo {
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    background-color: #DFEDF2;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 9%;
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+
+}
+
+.circulo1 {
+    display: flex;
+    margin: 10%;
+    background-color: #DFEDF2;
+    padding: 5%;
+    border-radius: 100%;
+    margin-right: -7%;
+    margin-left: 1%;
+    /* padding: 7.25%; */
+    height: 9.1%;
+}
+
+.circulo3 {
+    display: flex;
+    margin: 10%;
+    background-color: #0477BF;
+    padding: 5%;
+    border-radius: 100%;
+    margin-right: -7%;
+    /* padding: 7.25%; */
+    height: 9.1%;
+}
+
+.circulo4 {
+    display: flex;
+    margin: 10%;
+    background-color: #0477BF;
+    padding: 5%;
+    border-radius: 100%;
+    margin-left: -7%;
+    /* padding: 7.25%; */
+    height: 9.1%;
+    margin-right: 1%;
+}
+.texto1 {
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    background-color: #0477BF;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 9%;
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+
+
+}
+
+
+
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.você{display: flex;
+margin-top:-15%}
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 35%;
+    border: 1px solid black;
+    margin: 0%;
+    font-size: 100%
+}
+
+.tabela li {
+    display: flex;
+    height: 100%;
+    width: 100%
+}
+
+.próximo {
+    display: flex;
+    height: 80%;
+    width: 200%;
+    /* border-left:1px solid black; */
+}
+
+.tabela p {
+    border-right: 1px solid black;
+    padding: 5%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 15%;
+    /* padding-left: 5%; */
+    font-size: 120%;
+    position: fixed;
+    right: 1%;
+    top: 11%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.vaso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.quant {
+    margin-left: 230%;
+    display: flex;
+    height: 100%;
+    border-left: solid black;
+}
+
+.vaso22 {
+    display: flex;
+    height: 100%;
+    margin-top: -8%;
+    border-right: solid black;
+    font-size: 90%;
+    padding-right: 57.25%;
+}
+
+.quant1 p {
+    display: flex;
+    height: 140%;
+    margin-top: -10%;
+    padding-top: 10%;
+}
+
+.vaso1 {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-between;
+    border-bottom: solid black;
+}
+
+.vaso2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.vaso1 li {
+    display: flex;
+    height: 100%;
+}
+
+.vaso2 li {
+    display: flex;
+    height: 80%;
+    padding-left: 0;
+}
+
+footer {
+    display: flex;
+    height: 20%;
+    width: 100%;
+}
+
+footer img {
+    display: flex;
+    width: 100%;
+}
+a{text-decoration: none;}

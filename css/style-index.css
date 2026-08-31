@@ -1,0 +1,185 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2E0D5;
+}
+
+header {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #456173;
+}
+
+header img {
+    display: flex;
+    justify-content: flex-end;
+    height: 40%;
+    margin-right: 7%;
+}
+
+h1{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    margin-left: 8%;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:73.5%;
+    width: 80%;
+    margin: 6% 0%;
+}
+
+main p {
+    display: flex;
+    font-size: 150%;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.ajuste{
+    display: flex;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    justify-content: center;
+    color: white;
+}
+
+.ajuste2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+article {
+    display: flex;
+    height: 50%;
+}
+
+.entregas {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-color: #456173;
+}
+
+.numero {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #dfedf2;
+    font-variation-settings: "wdth" 100;
+    margin: 5%;
+    font-size: 2rem;
+    padding: 3% 5%;
+    border-radius: 50%;
+    background-color: #ff3131;
+}
+
+h2{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.titulo {
+    display: flex;
+    width: 100%;
+    padding: 2% 0%;
+    justify-content: center;
+    background-color: #456173;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main img {
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+.art_finan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.financeiro {
+    background-color: #BF7C63;
+}
+
+.estoque {
+    display: flex;
+    height: 35%;
+    width: 95%;
+    flex-direction: column;
+    background-color: #456173;
+}
+
+main ul {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    background-color: #BF7C63;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    height: 80%;
+    font-size: 100%;
+
+}
+
+li img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 5% 0% 0% 18%;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    height: 10%;
+    width: 100%;
+    background-color: #456173;
+    bottom: 0;
+
+}
+
+footer img {
+    display: flex;
+    padding-top: 30%;
+    height: 60%;
+    width: 80%;
+}

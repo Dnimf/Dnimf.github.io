@@ -1,0 +1,479 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Noto Serif", serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2E0D5;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 180%;
+    background-color: #456173;
+    font-family: "Poppins", sans-serif;
+}
+
+.voltar {
+    display: flex;
+    height: 50%;
+    width: 30%;
+}
+
+a {
+    display: flex;
+    height: 80%;
+    width: 20%;
+}
+
+img[alt="foto de perfil"] {
+    display: flex;
+    height: 95%;
+    padding-right: 0rem;
+    left: 0rem;
+    margin-left: -15%;
+}
+
+
+img[alt="anotacoes"] {
+    /* background-color: white; */
+    /* position:fixed; */
+    display: flex;
+    height: 90%;
+    padding-right: 0rem;
+    top: -1%;
+    right: 0rem;
+}
+
+h1 {
+    display: flex;
+    padding-left: 3rem;
+    font-size: 2rem;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.circulo1 {
+    display: flex;
+    margin: 10%;
+    background-color: #DFEDF2;
+    border-radius: 100%;
+    margin-right: -8%;
+    margin-left: 1%;
+    padding: 9.5%;
+}
+
+.circulo2 {
+    display: flex;
+    margin: 10%;
+    background-color: #DFEDF2;
+    border-radius: 100%;
+    margin-left: -7%;
+    padding: 9.5%;
+}
+
+.circulo3 {
+    display: flex;
+    margin: 10%;
+    background-color: #0477BF;
+    padding: 5%;
+    border-radius: 100%;
+    margin-right: -8%;
+    padding: 7.25%;
+    height: 10%;
+}
+
+/* .você {
+    display: flex;
+    position: fixed;
+    right: -1000px;
+    padding-top: -1%;
+} */
+
+.texto1 {
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    background-color: #0477BF;
+    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 20%;
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+    font-size: 145%;
+
+}
+
+.circulo4 {
+    display: flex;
+    margin: 10%;
+    background-color: #0477BF;
+    padding: 5%;
+    border-radius: 100%;
+    margin-left: -7%;
+    padding: 7.25%;
+    height: 10%;
+    margin-right: 1%;
+}
+
+.texto {
+    display: flex;
+    margin: 10%;
+    background-color: #DFEDF2;
+    padding: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 150%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tabela1 {
+    display: flex;
+    position: fixed;
+    right: -1000px;
+}
+
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 35%;
+    border: 1px solid black;
+    margin: 0%;
+    font-size: 100%
+}
+
+.tabela li {
+    display: flex;
+    height: 100%;
+    width: 100%
+}
+
+.próximo {
+    display: flex;
+    height: 80%;
+    width: 200%;
+    /* border-left:1px solid black; */
+}
+
+.tabela p {
+    border-right: 1px solid black;
+    padding: 5%;
+}
+
+.tabela2 {
+    display: flex;
+    position: fixed;
+    right: -1000px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 15%;
+    /* padding-left: 5%; */
+    font-size: 120%;
+    position: fixed;
+    right: 1%;
+    top: 11%;
+    background-color: white;
+    border-radius: 5%;
+    border-color: 1px solid black;
+}
+
+.vaso {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.vaso1 {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.vaso2 {
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+.quant {
+    display: flex;
+    border-left: 1px solid black;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.quant1 {
+    display: flex;
+    border-left: 1px solid black;
+    height: 100%;
+    /* width: 100%; */
+    margin-left: 71%;
+}
+
+/* tabela3 */
+.itens {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    border-top: 1px solid black;
+
+}
+
+h3 {
+    display: flex;
+    padding-bottom: 2.5%;
+}
+
+.itens li {
+    display: flex;
+    /* border-bottom: 1px solid black; */
+    height: 100%;
+    width: 100%;
+}
+
+.produto li {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: 80%;
+}
+
+.produto1 {
+    display: flex;
+    border-right: 1px solid black;
+    height: 100%;
+}
+
+.quanti {
+    border-left: 1px solid black;
+}
+
+li.endereco {
+    display: flex;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.endereco1 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-top: 1px solid black;
+
+}
+
+.endereco li {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    font-size: 80%;
+    align-items: center;
+
+}
+
+img[alt='lista'] {
+    display: flex;
+    height: 70%;
+    width: 40%;
+    border: 1px solid black;
+    padding: 4%;
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.pagamento {
+    border-right: 1px solid black;
+    width: 50%;
+}
+
+.valor {
+    display: flex;
+    border-right: 1px solid black;
+    height: 80%;
+}
+
+.valor1 {
+    display: flex;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.pagamento1 {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.tabela3 {
+    display: flex;
+    flex-direction: column;
+    right: -1000px;
+}
+
+.valor2 {
+    display: flex;
+    height: 80%;
+}
+
+/* tabela4 */
+.tabela4 {
+    position: fixed;
+    right: -1000px;
+}
+
+.produto li {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: 80%;
+}
+
+li.endereco {
+    display: flex;
+    /* align-items:center; */
+    height: 80%;
+    width: 100%;
+}
+
+.endereco1 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.endereco2 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-right: 1px solid black;
+}
+
+.endereco li {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: 80%;
+    align-items: center;
+
+}
+
+.triangulo {
+    display: flex;
+    height: 80%;
+    width: 10%;
+    border-left: 1px solid black;
+    padding: 4%;
+    /* border-radius: 10%; */
+}
+
+.valor {
+    border-right: 1px solid black;
+    padding-right: 10%;
+    margin-right: 15%;
+
+}
+
+.preco {
+    border-right: 1px solid black;
+    font-size: 97%;
+
+}
+
+.pagameto {
+    font-size: 100%;
+    width: 8%;
+
+}
+
+.pagamento1 {
+    display: flex;
+    font-size: 80%;
+    /* height:90%; */
+}
+
+.pix {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+li.preco1 {
+    display: flex;
+    height: 15%;
+    width: 100%;
+}
+
+.final {
+    display: flex;
+    width: 100%;
+    font-size: 80%;
+    /* position:; */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    height: 10%;
+    width: 100%;
+}
+
+footer img {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    /* margin-left: 3%; */
+    /* margin-bottom: -10%; */
+    /* padding-bottom: -10%; */
+}

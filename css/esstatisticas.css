@@ -1,0 +1,174 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #f2e0d5;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #456173;
+    height: 10%;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10rem;
+    margin: 5% 7.2% 0% ;
+}
+
+.voltar{
+    width: 30%;
+    height: 30%;
+    padding-left: 30%;
+}
+
+h1{
+    font-size: 2rem;
+    margin-right: 30%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.grafico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300%;
+    height: 100%;
+    background-color: #bf7c63
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.texto1 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.texto2 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25%;
+}
+
+.texto3 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30%;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.imagens{
+    width: 100%;
+    padding: 2% 0%;
+}
+
+.tabela{
+    display: flex;
+    justify-content: space-around;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    width: 100%;
+    background-color: #BF7C63;
+    padding-left: 1%;
+}
+
+.geral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2% 0%;
+}
+
+.geral li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.geral img{
+    display: flex;
+    height: 100%;
+    width: 80%;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #456173;
+    width: 100%;
+    height: 5rem;
+    margin-top: 30%;
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    height: 10%;
+    width: 100%;
+    background-color: #456173;
+    bottom: 0;
+
+}
+footer img {
+    display: flex;
+    padding-top: 30%;
+    height: 60%;
+    width: 80%;
+}
+

@@ -1,0 +1,123 @@
+html,
+body {
+        height: 100%;
+        width: 100%;
+        font-family: "Noto Serif", serif;
+}
+
+body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #F2E0D5;
+
+
+}
+
+header {
+        display: flex;
+        width: 100%;
+        height: 10%;
+        justify-content: center;
+        background-color: #456173;
+        font-size: 3rem;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        padding-left: 5%;
+}
+img[alt="buscar"]{
+        display: flex;
+        height: 60%;
+        width: 50%;
+        padding: 1%;
+}
+img[alt="filtro"]{
+        display: flex;
+        height: 60%;
+        width: 50%;
+        padding: 1%;
+}
+.volt {
+        display: flex;
+        height: 50%;
+        width: 40%;
+}
+
+h1{
+        display: flex;
+        padding-left: 1rem;
+        font-size: 3rem;
+        color: white;
+    }
+
+.topo {
+        display: flex;
+        height: 100%
+}
+
+main {
+        display: flex;
+        flex-direction: column;
+        height: 75%;
+        width: 100%;
+}
+
+.jose {
+        display: flex;
+        align-items: center;
+        font-size: 120%;
+        height:100%;
+}
+p{
+        display: flex;
+        align-items: center;
+        font-size:1.5rem;
+        height:100%;
+}
+.fotosjose{
+        display: flex;
+        height: 100%;
+        width:55%;
+}
+ul {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+}
+
+li {
+        display: flex;
+        justify-content: space-between;
+        height: 15%;
+        width:100%;
+        border-bottom: 1px solid black;
+}
+
+img {
+        display: flex;
+        height: 100%;
+        width:75%;
+}
+
+footer {
+        position: fixed;
+        display: flex;
+        justify-content: space-evenly;
+        height: 10%;
+        width: 100%;
+        background-color: #456173;
+        bottom: 0;
+    
+    }
+footer img {
+        display: flex;
+        padding-top: 30%;
+        height: 60%;
+        width: 80%;
+}
+
+a:link, a:visited{
+        text-decoration: none;
+        color: black;
+    }
